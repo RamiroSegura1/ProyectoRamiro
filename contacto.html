@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	<title>Contacto</title>
+</head>
+<body>
+	<div class="container">
+		<div id="header">
+        	<h1>Contacto</h1>
+          	<ul>
+            	<li><a href="index.html">Home</a></li>
+            	<li><a href="productos.html">Productos</a></li>
+            	<li><a href="nosotros.html">¿Quienes Somos?</a></li>
+          	</ul>
+     </div>
+		<div class="text">
+			<form action="recibe.html" method="POST" enctySpe="multipart/form-data">
+				<label class=labelNombre>Nombre:</label>
+					<input type="nombre" name="nombre">
+				<label>Apellido:</label>
+					<input type="apellido" name="apellido">
+				<label>E-mail:</label>
+					<input type="e-mail" name="e-mail">
+				<p class="newsletter">¿Desea recibir el Newsletter?<input type="checkbox" name=""></p>
+				<p class="textoDatos">Datos</p>
+				<p><img class="imglogos" src="media/emaillogo.png">E-mail: asd@gmail.com</p>
+				<p><img class="imglogos" src="media/telefonologo.png">Telefono:123456</p>
+				<h3>O bien, puedes escribirnos en el siguiente formulario: </h3>
+				<div class="padrecontainer">
+					<input class=inputConsulta	type="text" name="consulta" placeholder="Consulta">
+				</div>
+					<input type="reset" name="resetear" value="Limpiar formulario">
+					<input type="submit" name="sube_form" value="Enviar formulario">
+				</form>
+		</div>
+    <div id="footerC">
+    	<div>
+      	<p class="text-muted small mb-4 mb-lg-0">&copy; RHAM 2021. Todos los derechos reservados.</p>
+        <img class="editRedes" src="media/instagram.png" alt="redsocial"><p>Instagram</p>
+        <img class="editRedes" src="media/whatsapp.png" alt="redsocial"> <p>Whatsapp</p> 
+       </div>
+     </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
