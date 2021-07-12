@@ -8,13 +8,11 @@
   background: linear-gradient(90deg, #093879 37%, #0079ff 96%);
   color: white;
   text-align: center; }
-
-ul {
-  list-style-type: none; }
-
-li {
-  display: inline-block;
-  padding: 0 30px; }
+  #header ul {
+    list-style-type: none; }
+  #header li {
+    display: inline-block;
+    padding: 0 30px; }
 
 .imgC {
   width: 100%;
