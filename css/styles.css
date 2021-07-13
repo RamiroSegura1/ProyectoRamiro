@@ -5,6 +5,7 @@
   height: 30px;
   background-color: #232323;
   width: 100%;
+  height: 85px;
   bottom: 0;
   left: 0;
   margin-top: 20px;
@@ -71,7 +72,8 @@ li {
 /*Css Contacto*/
 .tittleC {
   color: #161616;
-  background-image: url(../media/keyc3.jpg); }
+  background-image: url(../media/keyc3.jpg);
+  height: 400px; }
 
 .text {
   text-align: center; }
