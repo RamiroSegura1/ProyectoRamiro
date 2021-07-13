@@ -1,6 +1,6 @@
 .tittleHeaders{
 	font-style: italic;
-	font-size: 50px;
+	font-size: 30px;
 	margin-bottom: 40px;
 	height: 30px;
 	background-color: #232323;
@@ -74,11 +74,6 @@ li{
 
 
 /*Css Contacto*/
-.tittleC{
-	color: #161616;
-	background-image: url(../media/keyc3.jpg);
-	height: 400px;
-}
 .text{
 	text-align: center;
 }
@@ -122,6 +117,20 @@ input{
 	background: #171717;
 	color: #F9F9F9;
 	transition: width 10s;
+}
+
+#footerC{
+	background: rgb(9,56,121);
+	background: linear-gradient(90deg, rgba(9,56,121,1) 37%, rgba(0,121,255,1) 96%);
+	width: 80%;
+	height: 150px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	margin-top: 20px;
+	color: white;
+	margin-left: 200px;
+	margin-right: 200px;
 }
 
 
